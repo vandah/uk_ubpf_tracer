@@ -41,7 +41,7 @@ $(eval $(call addlib_s,libubpf_tracer,$(CONFIG_LIBUBPF_TRACER)))
 ################################################################################]
 # LIBUBPF_TRACER_VERSION = main
 # LIBUBPF_TRACER_URL = https://github.com/vandah/ubpf_tracer/archive/refs/heads/main.zip
-LIBUBPF_TRACER_VERSION = cb394659982555312acea7072d2c465ca0a4614c
+LIBUBPF_TRACER_VERSION = 4bcc6cf3c0ce0b852bd8de600b54787be58d9f9d
 LIBUBPF_TRACER_URL = https://github.com/vandah/ubpf_tracer/archive/$(LIBUBPF_TRACER_VERSION).zip
 LIBUBPF_TRACER_SUBDIR = ubpf_tracer-$(LIBUBPF_TRACER_VERSION)
 LIBUBPF_TRACER_PATCHDIR = $(LIBUBPF_TRACER_BASE)/patches
