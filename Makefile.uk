@@ -87,3 +87,4 @@ LIBUBPF_TRACER_SRCS-y += $(LIBUBPF_TRACER_SRC)/src/arraylist.c
 LIBUBPF_TRACER_SRCS-y += $(LIBUBPF_TRACER_SRC)/src/hash_chains.c
 LIBUBPF_TRACER_SRCS-y += $(LIBUBPF_TRACER_SRC)/src/ubpf_helpers.c
 LIBUBPF_TRACER_SRCS-y += $(LIBUBPF_TRACER_SRC)/src/ubpf_tracer.c
+LIBUBPF_TRACER_SRCS-y += $(LIBUBPF_TRACER_SRC)/src/ubpf_tracer_trampoline.S
